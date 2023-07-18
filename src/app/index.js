@@ -1,10 +1,16 @@
 import App from "./App.js";
+import { Header } from "./components/Header.js";
 
-window.addEventListener("DOMContentLoaded",()=>{
+const body = document.getElementById("body");
+body.appendChild(Header());
 
-    App()
+window.addEventListener("DOMContentLoaded",App)
 
-})
+window.addEventListener("hashchange",App)
+    
+    
+
+
     
 
 

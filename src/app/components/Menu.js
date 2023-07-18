@@ -9,7 +9,7 @@ export function Menu(){
 
     <li class="menu__li">
 
-        <a class="li__a" href="#/">
+        <a class="li__a" href="/#">
             Inicio
         </a>
 
@@ -17,7 +17,7 @@ export function Menu(){
 
     <li class="menu__li">
 
-        <a class="li__a" href="#/productos">
+        <a class="li__a" href="/#productos">
             Productos
         </a>
 
@@ -25,7 +25,7 @@ export function Menu(){
     
     <li class="menu__li">
 
-        <a class="li__a" href="#/perfil">
+        <a class="li__a" href="/#perfil">
             Perfil
         </a>
 
@@ -33,7 +33,7 @@ export function Menu(){
 
     <li class="menu__li menu__li--carrito">
 
-        <a class="li__a" href="#/carrito">
+        <a class="li__a" href="/#carrito">
             Carrito
         </a>
 
